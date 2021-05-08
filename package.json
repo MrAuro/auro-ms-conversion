@@ -15,8 +15,5 @@
     "bugs": {
         "url": "https://github.com/MrAuro/auro-ms-conversion/issues"
     },
-    "homepage": "https://github.com/MrAuro/auro-ms-conversion#readme",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
-    }
+    "homepage": "https://github.com/MrAuro/auro-ms-conversion#readme"
 }
