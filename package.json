@@ -1,0 +1,19 @@
+{
+  "name": "auro-relative-time",
+  "version": "1.0.0",
+  "description": "Relative time package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAuro/auro-relative-time.git"
+  },
+  "author": "Auro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrAuro/auro-relative-time/issues"
+  },
+  "homepage": "https://github.com/MrAuro/auro-relative-time#readme"
+}
