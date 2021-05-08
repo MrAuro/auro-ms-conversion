@@ -2,6 +2,6 @@
 
 module.exports = {
     test: () => {
-        console.log('aaaaaa');
+        console.log('bbbbb');
     },
 };
