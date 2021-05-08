@@ -19,4 +19,10 @@ console.log(msConversion.relativeTime(8123751236));
 
 console.log(msConversion.relativeTime(8123751236, true));
 // 94 days, 35 minutes, and 51 seconds
+
+console.log(msConversion.relativeTime(137236834));
+// 14h, 7m, and 16s
+
+console.log(msConversion.relativeTime(137236834, true));
+// 1 day, 14 hours, 7 minutes, and 16 seconds
 ```
