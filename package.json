@@ -1,19 +1,19 @@
 {
-    "name": "auro-relative-time",
+    "name": "auro-ms-conversion",
     "version": "1.0.0",
-    "description": "Relative time package",
+    "description": "MS Conversion Package",
     "main": "index.js",
     "scripts": {
         "test": "node index.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MrAuro/auro-relative-time.git"
+        "url": "git+https://github.com/MrAuro/auro-ms-conversion.git"
     },
     "author": "Auro",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/MrAuro/auro-relative-time/issues"
+        "url": "https://github.com/MrAuro/auro-ms-conversion/issues"
     },
-    "homepage": "https://github.com/MrAuro/auro-relative-time#readme"
+    "homepage": "https://github.com/MrAuro/auro-ms-conversion#readme"
 }
