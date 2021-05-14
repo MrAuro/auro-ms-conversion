@@ -59,19 +59,19 @@ function relativeTime(ms, long) {
     } else {
         let resultArr = [];
 
-        if (days > 1) {
+        if (days >= 1) {
             days > 0 ? resultArr.push(days + 'd') : '';
         }
 
-        if (hours > 1) {
+        if (hours >= 1) {
             hours > 0 ? resultArr.push(hours + 'h') : '';
         }
 
-        if (minutes > 1) {
+        if (minutes >= 1) {
             minutes > 0 ? resultArr.push(minutes + 'm') : '';
         }
 
-        if (seconds > 1) {
+        if (seconds >= 1) {
             seconds > 0 ? resultArr.push(seconds + 's') : '';
         }
 
