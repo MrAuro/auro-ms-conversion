@@ -19,8 +19,17 @@ function relativeTime(ms, long) {
     days = Math.floor(hours / 24);
     hours = hours % 24;
 
+    years = Math.floor(days / 365);
+    days = days % 365;
+
     if (long) {
         let resultArr = [];
+
+        if (years == 1) {
+            years > 0 ? resultArr.push(years + ' year') : '';
+        } else if (years > 1) {
+            days > 0 ? resultArr.push(years + ' years') : '';
+        }
 
         if (days == 1) {
             days > 0 ? resultArr.push(days + ' day') : '';
@@ -47,7 +56,7 @@ function relativeTime(ms, long) {
         }
 
         // Check if there are only seconds
-        if (days == 0 && hours == 0 && minutes == 0) {
+        if (years == 0 && days == 0 && hours == 0 && minutes == 0) {
             return resultArr[0];
         } else if (resultArr.length == 2) {
             return `${resultArr[0]} and ${resultArr[1]}`;
@@ -58,6 +67,10 @@ function relativeTime(ms, long) {
         }
     } else {
         let resultArr = [];
+
+        if (years >= 1) {
+            years > 0 ? resultArr.push(years + 'y') : '';
+        }
 
         if (days >= 1) {
             days > 0 ? resultArr.push(days + 'd') : '';
@@ -76,7 +89,7 @@ function relativeTime(ms, long) {
         }
 
         // Check if there are only seconds
-        if (days == 0 && hours == 0 && minutes == 0) {
+        if (years == 0 && days == 0 && hours == 0 && minutes == 0) {
             return resultArr[0];
         } else if (resultArr.length == 2) {
             return `${resultArr[0]} and ${resultArr[1]}`;
